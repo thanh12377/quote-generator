@@ -1,0 +1,112 @@
+.random {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #4f4f4f;
+  float: right;
+  margin-right: 100px;
+  margin-top: 31px;
+  margin-bottom: 100px;
+}
+
+.random > .icon {
+  position: relative;
+  top: 4px;
+  bottom: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.quote-note {
+  font-family: Raleway,sans-serif;
+  border: 1px solid #fff;
+  width: 70%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  margin-left: 7em;
+
+}
+
+.quotes-author {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4f4f4f;
+  padding-left: 25px;
+}
+.quotes-genre {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+  position: relative;
+  bottom: 20px;
+  padding-left: 25px;
+}
+
+.quote-note>.icon {
+  float: right;
+  color: #333;
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.hover{
+  background: #333;
+  color: #fff !important;
+}
+.icon-hover{
+  color: #fff !important;
+  transition: all .4s ease-in-out;
+}
+
+.quotes-author-hover{
+  color: #fff !important;
+  transition: all .4s ease-in-out;
+}
+
+.quotes-genre-hover{
+  color: #fff !important;
+  transition: all .4s ease-in-out;
+}
+
+.pagination {
+  font-family: Raleway,sans-serif;
+  font-size: 20px;
+  width: 15%;
+  margin: 0 auto 4rem;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border: 2px solid #333;
+}
+
+p{
+    font-family: Raleway,sans-serif;
+    text-align: center;
+}
+
+.authorName{
+    font-weight: 700;
+    line-height: 42px;
+    display: inline-block;
+    color: #333;
+    margin-top: 80px;
+    margin-left: 380px;
+    margin-bottom: 100px;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.pagination button{
+  cursor: pointer;
+}

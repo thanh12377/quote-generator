@@ -1,0 +1,68 @@
+.quote {
+
+    line-height: 120%;
+    color: #000;
+    width: 90%;
+    border-left: 5px solid #f7df94;
+    margin: 0 auto 80px;
+    clear: both;
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+.quote-note {
+    font-family: Raleway,sans-serif;
+    border: 1px solid #fff;
+    width: 70%;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-left: 7em;
+}
+
+.quotes-author {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4f4f4f;
+}
+.quotes-genre {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    position: relative;
+    bottom: 20px;
+}
+
+.quote-note>.icon {
+    float: right;
+    color: #333;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.hover{
+    background: #333;
+    color: #fff !important;
+}
+.icon-hover{
+    color: #fff !important;
+    transition: all .4s ease-in-out;
+}
+
+.quotes-author-hover{
+    color: #fff !important;
+    transition: all .4s ease-in-out;
+}
+
+.quotes-genre-hover{
+    color: #fff !important;
+    transition: all .4s ease-in-out;
+}
